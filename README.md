@@ -1,2 +1,2 @@
 # elm-photogroove
-photo app made in elm
+photo app written in elm
