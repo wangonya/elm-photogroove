@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhotoGroove</title>
+</head>
+<body>
+  <div id="app"></div>  <!-- out elm app will render here -->
+
+  <!-- elm make src/PhotoGroove.elm --output app.js -->
+  <script src="app.js"></script> <!-- PhotoGroove.elm will get compiled into app.js -->
+  <script>
+    Elm.PhotoGroove.init({node: document.getElementById("app")})
+  </script>
+</body>
+</html>
